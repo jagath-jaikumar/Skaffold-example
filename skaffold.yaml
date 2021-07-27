@@ -1,0 +1,13 @@
+apiVersion: skaffold/v2beta19
+kind: Config
+build:
+  artifacts:
+  - image: baz
+deploy:
+  kubectl:
+    manifests:
+      - skaf-*
+# portForward:
+#   - resourceType: deployment
+#     resourceName: foo
+#     port: 6004
