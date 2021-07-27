@@ -6,7 +6,7 @@
 brew install skaffold
 ```
 
-1.
+2.
 
 ```
 skaffold dev
